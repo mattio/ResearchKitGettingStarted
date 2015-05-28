@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16816CC91B166463006F835B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16816CC81B166463006F835B /* main.m */; };
+		16816CCC1B166463006F835B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16816CCB1B166463006F835B /* AppDelegate.m */; };
+		16816CCF1B166463006F835B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16816CCE1B166463006F835B /* ViewController.m */; };
+		16816CD21B166463006F835B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16816CD01B166463006F835B /* Main.storyboard */; };
+		16816CD41B166463006F835B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16816CD31B166463006F835B /* Images.xcassets */; };
+		16816CD71B166463006F835B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16816CD51B166463006F835B /* LaunchScreen.xib */; };
+		16816CE31B166463006F835B /* CamelotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16816CE21B166463006F835B /* CamelotTests.m */; };
+		16816CFE1B1665A6006F835B /* ConsentDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 16816CFD1B1665A6006F835B /* ConsentDocument.m */; };
+		16816D011B167806006F835B /* ConsentTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 16816D001B167806006F835B /* ConsentTask.m */; };
+		16816D041B167EBF006F835B /* SurveyTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 16816D031B167EBF006F835B /* SurveyTask.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16816CDD1B166463006F835B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16816CBB1B166463006F835B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16816CC21B166463006F835B;
+			remoteInfo = Camelot;
+		};
+		16C143FD1B16AD4E007ABB58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C143F71B16AD4E007ABB58 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		16C143FF1B16AD4E007ABB58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C143F71B16AD4E007ABB58 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		16816CFB1B166527006F835B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		16816CC31B166463006F835B /* Camelot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camelot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16816CC71B166463006F835B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16816CC81B166463006F835B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16816CCA1B166463006F835B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16816CCB1B166463006F835B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16816CCD1B166463006F835B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16816CCE1B166463006F835B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16816CD11B166463006F835B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16816CD31B166463006F835B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16816CD61B166463006F835B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		16816CDC1B166463006F835B /* CamelotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamelotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16816CE11B166463006F835B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16816CE21B166463006F835B /* CamelotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamelotTests.m; sourceTree = "<group>"; };
+		16816CFC1B1665A6006F835B /* ConsentDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsentDocument.h; sourceTree = "<group>"; };
+		16816CFD1B1665A6006F835B /* ConsentDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsentDocument.m; sourceTree = "<group>"; };
+		16816CFF1B167806006F835B /* ConsentTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsentTask.h; sourceTree = "<group>"; };
+		16816D001B167806006F835B /* ConsentTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsentTask.m; sourceTree = "<group>"; };
+		16816D021B167EBF006F835B /* SurveyTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyTask.h; sourceTree = "<group>"; };
+		16816D031B167EBF006F835B /* SurveyTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyTask.m; sourceTree = "<group>"; };
+		16C143F71B16AD4E007ABB58 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../../../../RK-ShareTheJourney/ResearchKit/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16816CC01B166463006F835B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16816CD91B166463006F835B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16816CBA1B166463006F835B = {
+			isa = PBXGroup;
+			children = (
+				16816CEC1B1664CC006F835B /* Frameworks */,
+				16816CC51B166463006F835B /* Camelot */,
+				16816CDF1B166463006F835B /* CamelotTests */,
+				16816CC41B166463006F835B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16816CC41B166463006F835B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16816CC31B166463006F835B /* Camelot.app */,
+				16816CDC1B166463006F835B /* CamelotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16816CC51B166463006F835B /* Camelot */ = {
+			isa = PBXGroup;
+			children = (
+				16816CCA1B166463006F835B /* AppDelegate.h */,
+				16816CCB1B166463006F835B /* AppDelegate.m */,
+				16816CCD1B166463006F835B /* ViewController.h */,
+				16816CCE1B166463006F835B /* ViewController.m */,
+				16816CFC1B1665A6006F835B /* ConsentDocument.h */,
+				16816CFD1B1665A6006F835B /* ConsentDocument.m */,
+				16816CFF1B167806006F835B /* ConsentTask.h */,
+				16816D001B167806006F835B /* ConsentTask.m */,
+				16816D021B167EBF006F835B /* SurveyTask.h */,
+				16816D031B167EBF006F835B /* SurveyTask.m */,
+				16816CD01B166463006F835B /* Main.storyboard */,
+				16816CD31B166463006F835B /* Images.xcassets */,
+				16816CD51B166463006F835B /* LaunchScreen.xib */,
+				16816CC61B166463006F835B /* Supporting Files */,
+			);
+			path = Camelot;
+			sourceTree = "<group>";
+		};
+		16816CC61B166463006F835B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16816CC71B166463006F835B /* Info.plist */,
+				16816CC81B166463006F835B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16816CDF1B166463006F835B /* CamelotTests */ = {
+			isa = PBXGroup;
+			children = (
+				16816CE21B166463006F835B /* CamelotTests.m */,
+				16816CE01B166463006F835B /* Supporting Files */,
+			);
+			path = CamelotTests;
+			sourceTree = "<group>";
+		};
+		16816CE01B166463006F835B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16816CE11B166463006F835B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16816CEC1B1664CC006F835B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C143F71B16AD4E007ABB58 /* ResearchKit.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16C143F81B16AD4E007ABB58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C143FE1B16AD4E007ABB58 /* ResearchKit.framework */,
+				16C144001B16AD4E007ABB58 /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16816CC21B166463006F835B /* Camelot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16816CE61B166463006F835B /* Build configuration list for PBXNativeTarget "Camelot" */;
+			buildPhases = (
+				16816CBF1B166463006F835B /* Sources */,
+				16816CC01B166463006F835B /* Frameworks */,
+				16816CC11B166463006F835B /* Resources */,
+				16816CFB1B166527006F835B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Camelot;
+			productName = Camelot;
+			productReference = 16816CC31B166463006F835B /* Camelot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16816CDB1B166463006F835B /* CamelotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16816CE91B166463006F835B /* Build configuration list for PBXNativeTarget "CamelotTests" */;
+			buildPhases = (
+				16816CD81B166463006F835B /* Sources */,
+				16816CD91B166463006F835B /* Frameworks */,
+				16816CDA1B166463006F835B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16816CDE1B166463006F835B /* PBXTargetDependency */,
+			);
+			name = CamelotTests;
+			productName = CamelotTests;
+			productReference = 16816CDC1B166463006F835B /* CamelotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16816CBB1B166463006F835B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mattio Valentino";
+				TargetAttributes = {
+					16816CC21B166463006F835B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					16816CDB1B166463006F835B = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 16816CC21B166463006F835B;
+					};
+				};
+			};
+			buildConfigurationList = 16816CBE1B166463006F835B /* Build configuration list for PBXProject "Camelot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16816CBA1B166463006F835B;
+			productRefGroup = 16816CC41B166463006F835B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 16C143F81B16AD4E007ABB58 /* Products */;
+					ProjectRef = 16C143F71B16AD4E007ABB58 /* ResearchKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				16816CC21B166463006F835B /* Camelot */,
+				16816CDB1B166463006F835B /* CamelotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		16C143FE1B16AD4E007ABB58 /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = 16C143FD1B16AD4E007ABB58 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		16C144001B16AD4E007ABB58 /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = 16C143FF1B16AD4E007ABB58 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16816CC11B166463006F835B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16816CD21B166463006F835B /* Main.storyboard in Resources */,
+				16816CD71B166463006F835B /* LaunchScreen.xib in Resources */,
+				16816CD41B166463006F835B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16816CDA1B166463006F835B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16816CBF1B166463006F835B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16816D011B167806006F835B /* ConsentTask.m in Sources */,
+				16816CCF1B166463006F835B /* ViewController.m in Sources */,
+				16816D041B167EBF006F835B /* SurveyTask.m in Sources */,
+				16816CFE1B1665A6006F835B /* ConsentDocument.m in Sources */,
+				16816CCC1B166463006F835B /* AppDelegate.m in Sources */,
+				16816CC91B166463006F835B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16816CD81B166463006F835B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16816CE31B166463006F835B /* CamelotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16816CDE1B166463006F835B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16816CC21B166463006F835B /* Camelot */;
+			targetProxy = 16816CDD1B166463006F835B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16816CD01B166463006F835B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16816CD11B166463006F835B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16816CD51B166463006F835B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16816CD61B166463006F835B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16816CE41B166463006F835B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16816CE51B166463006F835B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16816CE71B166463006F835B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Camelot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16816CE81B166463006F835B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Camelot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16816CEA1B166463006F835B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CamelotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camelot.app/Camelot";
+			};
+			name = Debug;
+		};
+		16816CEB1B166463006F835B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CamelotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camelot.app/Camelot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16816CBE1B166463006F835B /* Build configuration list for PBXProject "Camelot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16816CE41B166463006F835B /* Debug */,
+				16816CE51B166463006F835B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16816CE61B166463006F835B /* Build configuration list for PBXNativeTarget "Camelot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16816CE71B166463006F835B /* Debug */,
+				16816CE81B166463006F835B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16816CE91B166463006F835B /* Build configuration list for PBXNativeTarget "CamelotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16816CEA1B166463006F835B /* Debug */,
+				16816CEB1B166463006F835B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16816CBB1B166463006F835B /* Project object */;
+}
